@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Geo Know
 
-## Getting Started
+## About project
+This project is a free copy of the game https://www.geoguessr.com/. <br>
+This game is paid and provides several minutes of free play in a period of time. <br>
+My goal is to make the same game, but make it free so that I can enjoy it yourself and let you enjoy it.
 
-First, run the development server:
+## Technologies
+- Next.js
+- React
+- Nest.js
+- TypeScript
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Roadmap
+### Version 1.0
+The initial goal is to add the ability to start the game at a random point on the map and repeat the functionality of the original. Guess the location within the allotted time period, calculate the distance and score points.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Version 1.1
+Add the ability to register and log in on the platform, as well as a simple personal account with a name, avatar and the ability to edit them.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Version 1.2
+Add experience points and player level.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## О проекте
+Этот проект представляет собой бесплатную копию игры https://www.geoguessr.com/. <br>
+Эта игра платная и предоставляет несколько минут бесплатной игры в определенный промежуток времени. <br>
+Моя цель — сделать такую же игру, но сделать ее бесплатной, чтобы я мог наслаждаться ею сам и позволить вам наслаждаться ею.
 
-## Learn More
+## Технологии
+- Next.js
+- React
+- Nest.js
+- TypeScript
 
-To learn more about Next.js, take a look at the following resources:
+## Карта развития
+### Version 1.0
+Первоначальная цель добавить возможность начать игру в случайной точке на карте и повторить функционал оригинала. Угадать место за отведенный промежуток времени, рассчитать расстояние и начислить очки.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Version 1.1
+Добавить возможность регистрации и авторизации на платформе, а также простой личный кабинет с именем, аватаркой и возможностью их редактирования.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Version 1.2
+Добавить очки опыта и уровень игрока.
