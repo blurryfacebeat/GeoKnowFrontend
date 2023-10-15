@@ -1,7 +1,7 @@
 import { type FC } from 'react';
 
 type TProps = {
-  className: string;
+  className?: string;
 };
 
 const LogoIcon: FC<TProps> = (props) => {

@@ -5,6 +5,7 @@ import Link from 'next/link';
 import routes from '@/utils/routes';
 
 import classes from './MainLayoutHeader.module.scss';
+import ThemePicker from '@/features/theme/ThemePicker';
 
 const MainLayoutHeader: FC = () => {
   return (
@@ -13,10 +14,7 @@ const MainLayoutHeader: FC = () => {
         <LogoIcon className={classes.logoSvg} />
         <Paragraph variant="medium">Geo Know</Paragraph>
       </Link>
-      <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-      </ul>
+      <ThemePicker />
     </header>
   );
 };
