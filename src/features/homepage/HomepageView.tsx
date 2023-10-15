@@ -1,7 +1,7 @@
 import { type FC } from 'react';
 
 const HomepageView: FC = () => {
-  return <div>HomePage</div>;
+  return <section>HomePage</section>;
 };
 
 export default HomepageView;
