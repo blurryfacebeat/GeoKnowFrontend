@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: var(--header-height);
+  width: 100%;
+}
+
+.main {
+  min-height: calc(100vh - var(--header-height) - var(--footer-height));
+  width: 100%;
+  overflow-y: auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  height: var(--footer-height);
+  width: 100%;
+}

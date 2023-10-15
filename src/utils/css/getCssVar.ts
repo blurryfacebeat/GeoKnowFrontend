@@ -1,4 +1,5 @@
-const getCssVar = (property: string): string =>
-  getComputedStyle(document.documentElement).getPropertyValue(property);
+const getCssVar = (property: string): string => {
+  return getComputedStyle(document.documentElement).getPropertyValue(property);
+};
 
 export default getCssVar;
