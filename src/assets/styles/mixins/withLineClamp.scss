@@ -1,0 +1,6 @@
+@mixin withLineClamp($lastLine) {
+  display: -webkit-box;
+  -webkit-line-clamp: $lastLine;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

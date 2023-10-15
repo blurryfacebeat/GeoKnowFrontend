@@ -1,0 +1,25 @@
+@function defaultTransitionParams($options...) {
+  $unfoldedTransitions: ();
+
+  @each $option in $options {
+    $unfoldedTransitions: append($unfoldedTransitions, $option 0.2s ease, comma);
+  }
+
+  @return $unfoldedTransitions;
+}
+
+@mixin defaultTransition($options...) {
+  transition: defaultTransitionParams($options);
+}
+
+@mixin transitionAllWithExceptions($exceptions...) {
+  $unfoldedTransitions: ();
+
+  $unfoldedTransitions: append($unfoldedTransitions, defaultTransitionParams(all));
+
+  @each $exception in $exceptions {
+    $unfoldedTransitions: append($unfoldedTransitions, $exception 0s);
+  }
+
+  transition: $unfoldedTransitions;
+}

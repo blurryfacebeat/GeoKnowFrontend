@@ -1,0 +1,7 @@
+@import "withLineClamp";
+
+@mixin cutString() {
+  text-overflow: ellipsis;
+
+  @include withLineClamp();
+}
