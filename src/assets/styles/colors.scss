@@ -1,8 +1,10 @@
 :root {
-  --base-color: "black";
+  --base-color: "#000";
+
+  --base-icon-color: var(--base-color);
 }
 
 
 [theme="dark"] {
-  --base-color: "white";
+  --base-color: "#FFF";
 }
