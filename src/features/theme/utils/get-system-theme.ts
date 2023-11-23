@@ -1,11 +1,11 @@
-import { type TBrowserTheme } from '@/features/theme/types/theme';
+import { BrowserTheme } from '@/features/theme/enums/browser-theme';
 
-const getSystemTheme = (): TBrowserTheme => {
-  if (typeof window === 'undefined') return 'dark';
+const getSystemTheme = (): BrowserTheme => {
+  if (typeof window === 'undefined') return BrowserTheme.DARK;
 
   return window.matchMedia('(prefers-color-scheme:dark)').matches
-    ? 'dark'
-    : 'light';
+    ? BrowserTheme.DARK
+    : BrowserTheme.LIGHT;
 };
 
 export default getSystemTheme;
