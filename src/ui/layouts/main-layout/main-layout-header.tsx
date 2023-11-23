@@ -4,8 +4,8 @@ import { Paragraph } from '@/ui/kit/atoms';
 import Link from 'next/link';
 import routes from '@/utils/routes';
 
-import classes from './MainLayoutHeader.module.scss';
-import ThemePicker from '@/features/theme/ThemePicker';
+import classes from './main-layout-header.module.scss';
+import ThemePicker from '@/features/theme/theme-picker';
 
 const MainLayoutHeader: FC = () => {
   return (

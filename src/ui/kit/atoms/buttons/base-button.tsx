@@ -4,7 +4,7 @@ import {
   type PropsWithChildren,
 } from 'react';
 
-import classes from './BaseButton.module.scss';
+import classes from './base-button.scss';
 import classNames from 'classnames';
 
 type TBaseButton = PropsWithChildren & ButtonHTMLAttributes<HTMLButtonElement>;

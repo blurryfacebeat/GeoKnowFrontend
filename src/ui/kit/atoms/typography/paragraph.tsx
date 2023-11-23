@@ -1,7 +1,7 @@
 import { type FC, type HTMLProps, type PropsWithChildren } from 'react';
 import classNames from 'classnames';
 
-import classes from './Paragraph.module.scss';
+import classes from './paragraph.module.scss';
 
 type TVariant = 'regular' | 'medium';
 

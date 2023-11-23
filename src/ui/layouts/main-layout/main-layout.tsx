@@ -1,6 +1,6 @@
 import { type FC, type PropsWithChildren } from 'react';
 
-import classes from './MainLayout.module.scss';
+import classes from './main-layout.module.scss';
 import MainLayoutHeader from '@/ui/layouts/MainLayoutHeader';
 
 const MainLayout: FC<PropsWithChildren> = (props) => {

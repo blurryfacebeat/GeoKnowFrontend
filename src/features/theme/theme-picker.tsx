@@ -1,8 +1,8 @@
 import { type FC } from 'react';
 import { MoonIcon, SunIcon } from '@/ui/kit/icons';
-import getSystemTheme from '@/features/theme/utils/getSystemTheme';
+import getSystemTheme from '@/features/theme/utils/get-system-theme';
 
-import classes from './ThemePicker.module.scss';
+import classes from './theme-picker.module.scss';
 
 const ThemePicker: FC = () => {
   const currentTheme = getSystemTheme();
