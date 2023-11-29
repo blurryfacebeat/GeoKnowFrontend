@@ -1,4 +1,9 @@
 .container {
-  width: fit-content;
-  height: fit-content;
+  width: 30px;
+  height: 30px;
+
+  color: var(--on-background-color);
+
+  cursor: pointer;
+  user-select: none;
 }

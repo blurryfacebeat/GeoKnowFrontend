@@ -1,16 +1,19 @@
+'use client';
+
 import { type FC } from 'react';
-import { MoonIcon, SunIcon } from '@/ui/kit/icons';
-import getSystemTheme from '@/features/theme/utils/get-system-theme';
+import { ThemeIcon } from '@/ui/kit/icons';
 
 import classes from './theme-picker.module.scss';
-import { BrowserTheme } from '@/features/theme/enums/browser-theme';
+import { changeSystemTheme } from './utils/change-system-theme';
 
 const ThemePicker: FC = () => {
-  const currentTheme = getSystemTheme();
+  const handleClick = () => {
+    changeSystemTheme();
+  };
 
   return (
-    <div className={classes.container}>
-      {currentTheme === BrowserTheme.DARK ? <SunIcon /> : <MoonIcon />}
+    <div className={classes.container} onClick={handleClick}>
+      <ThemeIcon />
     </div>
   );
 };

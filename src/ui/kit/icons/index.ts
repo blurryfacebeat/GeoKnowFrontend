@@ -1,5 +1,4 @@
 import LogoIcon from '@/ui/kit/icons/logo-icon';
-import MoonIcon from '@/ui/kit/icons/moon-icon';
-import SunIcon from '@/ui/kit/icons/sun-icon';
+import ThemeIcon from '@/ui/kit/icons/theme-icon';
 
-export { LogoIcon, MoonIcon, SunIcon };
+export { LogoIcon, ThemeIcon };
